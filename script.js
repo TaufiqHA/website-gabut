@@ -14,13 +14,13 @@ function result(value)
     switch (value.id)
     {
     case 'batu':
-        suitValue = "https://taufiqha.github.io/website-gabut/img/batu.png";
+        suitValue = "img/batu.png";
         break;
     case 'gunting':
-        suitValue = "https://taufiqha.github.io/website-gabut/img/gunting.png";
+        suitValue = "img/gunting.png";
         break;
     case 'kertas':
-        suitValue = "https://taufiqha.github.io/website-gabut/img/kertas.png";
+        suitValue = "img/kertas.png";
         break;
     default:
         suitValue = 0;
