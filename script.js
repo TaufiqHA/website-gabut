@@ -14,13 +14,13 @@ function result(value)
     switch (value.id)
     {
     case 'batu':
-        suitValue = "file:///C:/Users/htauf/Documents/web%20gabut/aplikasi-suit/img/batu.png";
+        suitValue = "https://taufiqha.github.io/website-gabut/img/batu.png";
         break;
     case 'gunting':
-        suitValue = "file:///C:/Users/htauf/Documents/web%20gabut/aplikasi-suit/img/gunting.png";
+        suitValue = "https://taufiqha.github.io/website-gabut/gunting.png";
         break;
     case 'kertas':
-        suitValue = "file:///C:/Users/htauf/Documents/web%20gabut/aplikasi-suit/img/kertas.png";
+        suitValue = "https://taufiqha.github.io/website-gabut/img/kertas.png";
         break;
     default:
         suitValue = 0;
@@ -49,13 +49,13 @@ function win()
 
     switch(resultCom){
     case 0:
-        comResult = "file:///C:/Users/htauf/Documents/web%20gabut/aplikasi-suit/img/batu.png";
+        comResult = "https://taufiqha.github.io/website-gabut/img/batu.png";
         break;
     case 1:
-        comResult = "file:///C:/Users/htauf/Documents/web%20gabut/aplikasi-suit/img/gunting.png";
+        comResult = "https://taufiqha.github.io/website-gabut/img/gunting.png";
         break;
     case 2:
-        comResult = "file:///C:/Users/htauf/Documents/web%20gabut/aplikasi-suit/img/kertas.png";
+        comResult = "https://taufiqha.github.io/website-gabut/img/kertas.png";
         break;
     default:
         comResult = "";
