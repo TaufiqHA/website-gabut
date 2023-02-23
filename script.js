@@ -17,7 +17,7 @@ function result(value)
         suitValue = "https://taufiqha.github.io/website-gabut/img/batu.png";
         break;
     case 'gunting':
-        suitValue = "https://taufiqha.github.io/website-gabut/gunting.png";
+        suitValue = "https://taufiqha.github.io/website-gabut/img/gunting.png";
         break;
     case 'kertas':
         suitValue = "https://taufiqha.github.io/website-gabut/img/kertas.png";
