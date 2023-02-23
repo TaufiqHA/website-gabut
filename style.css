@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'pixels';
+	src: url('font/PixelGameFont.ttf');
+}
+
+body {
+	background-color: lightgrey;
+	font-family: pixels;
+}
+
+.kotak-suit {
+	width: 150px;
+	height: 150px;
+	background-color: tomato;
+	border-radius: 5px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 5px 5px grey;	
+}
+
+.container {
+	display: flex;
+	width: auto;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+img {
+	width: 60px;
+}
+
+.body {
+ 	width: auto;
+ 	margin-top: 50px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-direction: column;
+}
+
+.textAlert {
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 3px;
+	width: 300px;
+	text-align: center;
+	background-color: lightgreen;
+	box-shadow: 5px 5px grey;
+	margin-bottom: 50px;
+}
+
+.buttonSubmit {
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	box-shadow: 5px 5px grey;
+}
+
+.footer {
+	width: auto;
+	height: 150px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
